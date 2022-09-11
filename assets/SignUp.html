@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+
+    <title>Sign Up Form</title>
+  </head>
+
+  <body>
+    <form
+      class="SignUpForm"
+      action="mailto:marschalice@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <fieldset>
+        <label for="name"
+          >Full Name<input
+            type="text"
+            name="first-name"
+            required
+            placeholder="Marcellus Ifeanyi"
+        /></label>
+
+        <label for="email"
+          >E-mail
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="marsifeanyi.code@gmail.com"
+        /></label>
+
+        <label for="phone number"
+          >Phone Number
+          <input
+            type="number"
+            name="number"
+            required
+            placeholder="+2347064643074"
+        /></label>
+
+        <label for="create password"
+          >Create Password
+          <input
+            type="password"
+            name="password"
+            pattern="[a-z0-5]{8,}"
+            required
+        /></label>
+        <label for="confirm password"
+          >Confirm Password
+          <input
+            type="password"
+            name="password"
+            pattern="[a-z0-5]{8,}"
+            required
+        /></label>
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
