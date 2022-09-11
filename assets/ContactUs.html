@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form
+      class="ContactUsForm"
+      action="mailto:marschalice@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <fieldset>
+        <label
+          >Full Name<input
+            type="text"
+            name="first-name"
+            required
+            placeholder="Marcellus Ifeanyi"
+        /></label>
+
+        <label
+          >E-mail
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="marsifeanyi.code@gmail.com"
+        /></label>
+        <label
+          >Phone Number <input type="number" name="number" required
+        /></label>
+        <label for="user_Message">Write to us </label>
+        <textarea
+          name="user_Message"
+          id="msg"
+          cols="20"
+          rows="10"
+          required
+          placeholder="I want to learn front end development, i believe learnable22 is the best opportunity for me to become a world class Software Engineer "
+        ></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
