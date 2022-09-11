@@ -4,6 +4,10 @@
 
 Built the Desktop version of the Flixia App Landing Page using HTML and CSS.
 
+- Deployed Link:
+
+https://flixia-landingpage.netlify.app/
+
 - How to Use
 
 To get better experience view the app using desktop.
