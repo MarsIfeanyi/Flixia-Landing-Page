@@ -2,7 +2,7 @@
 
 - Learnable22
 
-Built the Desktop version of the Flixia App Landing Page using HTML and CSS.
+Built the Desktop version of the Flixia App Landing Page using HTML, CSS and JavaScript.
 
 - Deployed Link:
 
