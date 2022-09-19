@@ -8,7 +8,10 @@ Built the Desktop version of the Flixia App Landing Page using HTML, CSS and Jav
 
 https://flixia-landingpage.netlify.app/
 
-- Deployed Link for Version 2:
+- Mobile Responsiveness
+  For mobile responsiveness check out the version two
+
+* Deployed Link for Version 2:
 
 https://flixia-app-landingpage-2.netlify.app/
 
